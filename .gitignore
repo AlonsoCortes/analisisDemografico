@@ -1,0 +1,59 @@
+# ── Entorno virtual ────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Datos geoespaciales ────────────────────────────────────────────────────────
+# Shapefile (todos los componentes)
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.qpj
+*.sbn
+*.sbx
+*.fbn
+*.fbx
+*.ain
+*.aih
+
+# Otros formatos vectoriales y ráster
+*.gpkg
+*.geojson
+*.kml
+*.kmz
+*.gml
+*.gdb/
+*.tif
+*.tiff
+*.img
+*.ecw
+*.sid
+
+# Tablas de datos pesadas
+*.xlsx
+*.xls
+*.ods
+
+# ── Salidas generadas ──────────────────────────────────────────────────────────
+# Toda la carpeta de resultados (se pueden reproducir con los notebooks/GUIs)
+datos/
+
+# ── Sistema operativo ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
